@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time To Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tektur:wght@400..900&display=swap');
+
+        * {
+            font-family: "EB Garamond", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        @media screen and (max-width:450px){
+            .left,.right{
+                text-align: center;
+                width: 100%;
+            }
+
+        }
+
+        @media screen and (max-width:850px){
+            footer #id4{
+                text-align: center;
+                width: 100%;
+            }
+
+        }
+
+        @media screen and (max-width:990px){
+            footer #id4{
+                text-align: center;
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-dark mt-0  bg-secondary p-2 text-white text-center fs-5" >
+                <div class="left">Time to travel,page 1</div>
+                <div class="right">Tuesday,May 8th,2021</div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Start -->
+    <main>
+
+        <section id="id1">
+            <div class="container">
+                <h1 class="display-1 text-center">TIME TO TRAVEL</h1>
+            </div>
+        </section>
+
+
+
+
+        <Section id="id2">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 m-0" style="width: 100%;">
+                    <div class="col p-0"><img src="images/1.jpeg" class="img-fluid" alt="..."
+                            style="height: 300px; width:100%;"></div>
+                    <div class="col p-3 mb-2 bg-danger text-white p-0" style="height: 300px;">
+                        <p class="pt-2 text-center" style="font-size: 18px;">
+                            Great Ireland <br>
+                            Suspendisse vehicula, augue suscipit fringilla facilisis, massa purus elementum tellus,
+                            aliquet
+                            condimentum ligula dui nec urna.
+                            Quisque viverra ipsum ac facilisis varius. Nullam ut cong. Imperdiet ipsum cursus ex</p>
+                    </div>
+                    <div class="col p-0"><img src="images/2.jpeg" class="img-fluid" alt="..." style="height: 300px;width:100%;">
+                    </div>
+                    <div class="col p-3 mb-2 bg-secondary text-white p-0" style="height: 300px;">
+                        <p class="pt-2 text-center" style="font-size: 18px;">
+                            Beautiful Greece <br>
+                            Mauris sed ultricies lacus. Donec laoreet condimentum felis, eleifend pharetra lectus
+                            molestie
+                            in.
+                            Curabitur vitae ex ukrices, dapibus ante sit amet, cursus metus.
+                            Nullam ut congue imperdiet ipsum cursus ex.</p>
+                    </div>
+                </div>
+            </div>
+        </Section>
+
+
+
+        <section id="id3">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="images/3.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <p class="fs-1">LET'S TRAVEL TOGETHER</p>
+                                <!-- <h2>Let's Travel Togeather</h2> -->
+                                <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-3 mt-1 text-center">
+                <div class="col">
+                  <div class="p-3 bg-secondary text-white" style="height: 200px;">Greek food <br>
+                    Proin imperdiet diam erat, a bibendum lectus dictum sit amet. Pellentesque eget efficitur nibh.
+                     In hac habitasse platea dictumst. Praesent tristique, risus eu mattis suscipit, nibh lectus facilisis orc.
+                      Proin imperdiet diam erat.</div>
+                </div>
+                <div class="col">
+                  <div class="p-3 bg-danger text-white" style="height: 200px;" >Dublin <br>
+                    Aliquam ut rutrum purus, id Icbortis urna. Vivamus in est vitae diam fermentum elementum. 
+                    Donec et varius ligula, a volutpat purus. 
+                    In sem sem, rutrum in nibh in, malesuada faucibus est. In hac habitasse platea dictumst.</div>
+                </div>
+                <div class="col" id="id4">
+                  <div class="p-3 bg-secondary text-white" style="height: 200px;">
+                    <p class="fs-2">35%</p>
+                    <hr>
+                    <p>DISCOUNT ON <br>
+                        TRIPS <br>
+                        TO GREECE</p>
+                        <hr>
+                  </div>
+                </div>
+        </div>
+    </footer>
+</body>
+
+</html>
